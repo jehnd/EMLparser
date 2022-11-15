@@ -1,13 +1,11 @@
-import csv
+
 import email
 import os
-#import extractdata - replaced by regextext - kept for outline of possible class implementation
 import regextext  # the regex decoding functions
 import emloutput  # the output formatting
 
 #various locations for files (internal working and end results) will need to edit only this to install
 emlfolder = "eml directory here"  # email files
-emlfolder = "test emls here"  # test folder for test emls
 imagefolder = "image directory here"  # all image files
 printfolder = "folder for images to be sent"  # where sorted will go
 csvfolder = "folder for csv result"  # internal working csv
